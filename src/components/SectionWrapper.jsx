@@ -25,7 +25,8 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           {showBtn && (
             <Button 
               assetUrl={assets.expo}
-              link="deployed nft marketplace rn" // deployment link should be added in this inside semi-colon
+              link="https://expo.dev/@adithyakumar/react_native_app?serviceType=classic&distribution=expo-go"
+              // https://expo.dev/artifacts/eas/aqMv553bNCoprVJHSfu1GG.aab // deployment link should be added in this inside semi-colon
             />
           )}
         </div>
